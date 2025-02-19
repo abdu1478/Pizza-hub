@@ -1,0 +1,29 @@
+/* Pizz-Hub */
+@import 'tailwindcss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@theme {
+  --font-display: 'Arima', serif;
+  --transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  --shadow-list: 0 4px 6px 8px rgba(0, 0, 0, 0.1);
+  --shadow-image: 0 10px 10px 5px rgba(0, 0, 0, 0.3);
+  --padding-list: 3rem;
+  --text-h3: clamp(1.8rem, 2.5vw, 2rem);
+  --text-p: clamp(1.2rem, 1.8vw, 1.4rem);
+  --cols-5: repeat(auto-fit, minmax(26rem, 1fr));
+  --sahdow-list--hover: 0 6px 12px rgba(0, 0, 0, 0.15);
+  --hover-translate: translateY(-0.5rem);
+  --hover-filter: brightness(0.8);
+  --spacing-container: 0 2rem;
+}
+.btn:hover {
+  background-color: #e9bb24;
+}
+.pizza:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
